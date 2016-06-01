@@ -1,0 +1,35 @@
+body {
+  background-color: #B1BDD0;
+  padding: 20px; }
+
+h2, h1 {
+  color: #DDDDDD !important;
+  text-align: center; }
+
+.copyright-text, #contact, footer {
+  background-color: #B1BDD0; }
+
+a {
+  text-decoration: none;
+  color: #DDDDDD !important; }
+
+.icons img {
+  align-items: center; }
+
+.box-proyect img {
+  height: 300px;
+  width: 300px; }
+
+#Proyectos {
+  margin-bottom: 1em;
+  background-color: #37526C; }
+
+#header-content {
+  padding: 2%;
+  text-align: center; }
+  #header-content .img-hdr img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px; }
+
+/*# sourceMappingURL=main.css.map */
