@@ -8,9 +8,13 @@
     <meta name="author" content="">
 	<link rel="stylesheet" href="css/main.css" type="text/css">
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-	<link rel="stylesheet" href="css/fonts" type="text/css">	
+	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">	
 	<link rel="shortcut icon" type="image/x-icon" href="icono.ico" />
 	<link rel="stylesheet" href="css/animate.min.css" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
     <title>Milca Del Angel | Portafolio</title>
 </head>
 <body>
@@ -19,7 +23,7 @@
 		<div class="row">
 			<div class="col-md-12 col-xs-6">
 				<div class="img-hdr">
-					<img src="imagenes/IMG_2273.JPG" alt="foto_milca">
+					<img src="IMG_2273.JPG" alt="foto_milca">
 				</div>
 				<div class="text-header">
 					<h1>Milca del Angel</h1>
@@ -34,7 +38,7 @@
 		</div>
 	</div>
 </section>
-<section class="Skills">
+<section id="Skills">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -49,7 +53,7 @@
 					<img src="iconos/html.png" alt="" class="img-responsive">
 					<br>
 					<div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;background-color:#2ED1D1;">
                         <span class="sr-only">100% Complete</span>
                         </div>
                     </div>	
@@ -57,10 +61,10 @@
 			</div>
 			<div class="col-md-4 col-sm-6">
 				<div class="box-sk">
-					<img src="iconos/expediente.png" alt="" class="img-responsive">
+					<img src="iconos/css.png" alt="" class="img-responsive">
 					<br>
 					<div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;background-color:#2ED1D1;">
                         <span class="sr-only">90% Complete</span>
                     </div>
 				</div>
@@ -71,7 +75,7 @@
 					<img src="iconos/javascript.png" alt="" class="img-responsive">
 					<br>
 					<div class="progress">
-                       	<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"aria-valuemax="100" style="width:30%;">
+                       	<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"aria-valuemax="100" style="width:30%;background-color:#2ED1D1;">
                        	<span class="sr-only">90% Complete</span>
                         </div>
 					</div>
@@ -84,7 +88,7 @@
 					<img src="iconos/jquery.png" alt="" class="img-responsive">
 					<br>
 					<div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 30%;background-color:#2ED1D1;">
                         <span class="sr-only">100% Complete</span>
                         </div>
                     </div>	
@@ -92,10 +96,10 @@
 			</div>
 			<div class="col-md-4 col-sm-6">
 				<div class="box-sk">
-					<img src="iconos/audaz.png" alt="" class="img-responsive">
+					<img src="iconos/letter-b.png" alt="" class="img-responsive">
 					<br>
 					<div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;background-color:#2ED1D1;">
                         <span class="sr-only">90% Complete</span>
                     </div>
 				</div>
@@ -106,7 +110,7 @@
 					<img src="iconos/logo.png" alt="" class="img-responsive">
 					<br>
 					<div class="progress">
-                       	<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"aria-valuemax="100" style="width:40%;">
+                       	<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"aria-valuemax="100" style="width:40%;background-color:#2ED1D1;">
                        	<span class="sr-only">90% Complete</span>
                         </div>
 					</div>
@@ -116,72 +120,76 @@
 	</div>
 </section>
 <section id="Proyectos">
-	<div class="container">
-	<div class="row text-center">
-		<div class="col-md-12"><h2>Proyectos</h2></div>
-	</div>
-		<div class="row">
-			<div class="col-md-4 col-sm-6">
-				<div class="box-proyect LineaB">
-					<a href="http://delangelmilca.github.io/proyectoPortafolio">
-						<img src="imagenes/header.jpg" alt="city" class="img-responsive">
-						<br>
-						<h3 class="text-center">Nombre del proyecto</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae voluptatum tenetur magni soluta, impedit laborum distinctio blanditiis vel eum, ullam quae deserunt ab, enim. Facilis ut sequi minima impedit illum.</p>
-					</a>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<div class="box-proyect LineaB">
-					<a href="http://delangelmilca.github.io/proyectoPrimes" data-toggle="modal">
-						<img src="imagenes/city.jpg" alt="city" class="img-responsive">
-						<br>
-						<h3 class="text-center">Nombre del proyecto</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, ipsum quae dicta asperiores aut ipsam quis, cum rem minus animi, ad, placeat ducimus ullam. Illum deserunt tempore ea, suscipit temporibus!</p>
-					</a>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<div class="box-proyect LineaB">
-					<a href=" http://delangelmilca.github.io/ProyectoKane">
-					<img src="imagenes/agency-img.jpg" alt="contacto" class="img-responsive" >
-					<br>
-					<h3 class="text-center">Nombre del proyecto</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam expedita pariatur corporis culpa ratione commodi asperiores quibusdam harum neque optio, fugiat iste aperiam, necessitatibus minus adipisci laboriosam architecto corrupti aliquid?</p>
-					</a>
-				</div>
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://delangelmilca.github.io/proyectoPrimes" class="port-caja">
+                        <img src="imagenes/city.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Proyecto Primes
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://delangelmilca.github.io/proyectoPortafolio" class="port-caja">
+                        <img src="imagenes/header.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Portfolio
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center">
+                    <a href=" http://delangelmilca.github.io/ProyectoKane" class="port-caja">
+                        <img src="imagenes/agency-img.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Kane Paleta de colores
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="container text-center">
+            		<div class="call-to-action">
+            		<br>
+            		<br>
+            		<br>
+                		<h2>Si quieres saber más de mi proyecto revisa mi github</h2>
+                		<a href="https://github.com/DelAngelMilca"><button class="btn-git  wow bounceIn">Ver mi GitHub</button></a>
+           			 </div>
+   				</div>
             </div>
-		</div>
-
-	</div>
-</section>
-<section id="contact">
-	<div class="container">
-		<div class="row">
-			<div class="co-md-12">
-				<div class="box-contact">
-					<h2>Contacto</h2>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-6">
-				<div>
-					<img src="iconos/sobre.png" alt="sobre" class="img-responsive">
-					<p>milcadela@gmail.com</p>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="icons">
-					<a href="https://github.com/DelAngelMilca">
-						<img src="iconos/github.png" alt="logo" class="img-responsive">
-						<p>Git-Hub</p>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+        </div>
+    </section>
+ <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">CONTÁCTAME</h2>
+                    <hr class="ser">
+                    <p>¿Listo para empezar tu siguiente proyecto? ¿Te gusta lo que has visto? Genial!, 
+                    dame una llamada o envíame un correo y te responderé lo más rápido que pueda!</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x "></i>
+                    <p>Pendiente</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <img src="iconos/sobre.png">
+                    <p><a href="email">milcadela@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
 <footer>
 	<div class="container">
 		<div class="row">
@@ -193,9 +201,11 @@
 		</div>
 	</div>
 </footer>
-
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.12.4.js"></script>
-<script src="js/bootstrap.min.js" type="text/javascript"></script>
-<script src="js/wow.min.js" type="text/javascript"></script>
+	<script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/creative.js"></script>
 </body>	
 </html>

@@ -1,6 +1,3 @@
-body {
-  background-color: #8F8C94 !important; }
-
 h2, h1 {
   color: #000000 !important;
   text-align: center; }
@@ -8,28 +5,71 @@ h2, h1 {
 a {
   text-decoration: none; }
 
-.box-sk {
-  width: 100%; }
-  .box-sk img {
-    width: 20%; }
-
-#Proyectos {
-  margin: 1em 0em;
-  padding: 2em 0em; }
+#Skills {
+  background-color: #C6D5CD !important; }
+  #Skills .box-sk {
+    width: 100%; }
+    #Skills .box-sk img {
+      width: 20%; }
 
 #header-content {
   padding: 2%;
   text-align: center; }
   #header-content .img-hdr img {
     width: 200px;
-    height: 200px;
-    border-radius: 100px; }
+    height: 200px; }
 
 .LineaB {
   padding: 2%;
   background-color: #FFFFFF; }
 
 hr {
-  border: 2px solid red !important; }
+  border: 2px solid #30BFBF !important; }
+
+@media (min-width: 768px) {
+  font-size: 16px; }
+.portfolio-box {
+  display: block;
+  position: relative;
+  max-width: 650px;
+  padding: -15%; }
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 22px; }
+
+#Proyectos {
+  margin: 1em 0em;
+  padding: 2em 0em; }
+  #Proyectos img {
+    height: 400px;
+    width: 100%; }
+
+.port-caja:hover .portfolio-box-caption {
+  opacity: 1; }
+.port-caja .portfolio-box-caption {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  background: #37D9A3; }
+  .port-caja .portfolio-box-caption .portfolio-box-caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%); }
+
+.btn-git {
+  border-color: #fff;
+  color: #222;
+  background-color: #f2f2f2;
+  font-size: 18px;
+  border-radius: 10px; }
+
+.color {
+  color: #f05f40; }
 
 /*# sourceMappingURL=main.css.map */
