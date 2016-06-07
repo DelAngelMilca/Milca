@@ -6,13 +6,21 @@ a {
   text-decoration: none; }
 
 #Skills {
-  background-color: #C6D5CD !important; }
+  background-image: url("../imagenes/preview.jpg");
+  background-position: center center;
+  width: 100%;
+  padding: 5%; }
   #Skills .box-sk {
     width: 100%; }
-    #Skills .box-sk img {
-      width: 20%; }
+  #Skills img {
+    width: 20%; }
+  #Skills .progress {
+    height: 12px;
+    width: 70%; }
 
 #header-content {
+  background-image: url("../imagenes/fondo.jpg");
+  background-position: center;
   padding: 2%;
   text-align: center; }
   #header-content .img-hdr img {
@@ -24,7 +32,8 @@ a {
   background-color: #FFFFFF; }
 
 hr {
-  border: 2px solid #30BFBF !important; }
+  border: 2px solid #30BFBF !important;
+  width: 30%; }
 
 @media (min-width: 768px) {
   font-size: 16px; }
@@ -40,7 +49,7 @@ hr {
   margin: 1em 0em;
   padding: 2em 0em; }
   #Proyectos img {
-    height: 400px;
+    height: 250px;
     width: 100%; }
 
 .port-caja:hover .portfolio-box-caption {
@@ -49,7 +58,7 @@ hr {
   display: block;
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 95%;
   height: 100%;
   text-align: center;
   color: #fff;
