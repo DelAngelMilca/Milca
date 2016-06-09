@@ -36,7 +36,8 @@ hr {
   width: 30%; }
 
 @media (min-width: 768px) {
-  font-size: 16px; }
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    font-size: 16px; } }
 .portfolio-box {
   display: block;
   position: relative;
@@ -80,5 +81,9 @@ hr {
 
 .color {
   color: #f05f40; }
+
+.bounceIn {
+  animation-duration: 20s !important;
+  animation-iteration-count: 5; }
 
 /*# sourceMappingURL=main.css.map */
